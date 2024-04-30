@@ -1171,7 +1171,7 @@ video {
   opacity: 1;
   visibility: visible;
   height: 100%;
-  z-indeX: 9;
+  z-indeX: 1001;
 }
 
 .box-video {
