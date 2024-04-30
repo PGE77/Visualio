@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../dist/swiper.min.css">
+    <link rel="shortcut icon" href="../public/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="relative md:h-[896px] h-[664px] bg-[url(../public/img/bg-1.jpg)] bg-cover md:bg-center bg-right">
+
+        <nav class="flex flex-row justify-between items-center max-w-[1312px] m-auto px-3.5">
+            <div class="md:mt-[48px] mt-[32px]">
+                <img class="md:w-[247.29px] w-[150px]" src="../public/img/logo-hp.png" alt="">
+            </div>
+
+
+
+
+            <div class="open-menu md:mt-[48px] mt-[32px] transition-transform duration-300 cursor-pointer">
+                <img class="md:w-[24px] w-[18px]" src="../public/img/hamburger.svg" alt="hamburger">
+
+            </div>
+
+
+        </nav>
+
+
+        <div class="flex justify-center flex-col items-center">
+            <img class="md:w-[528px] w-[280px] md:mt-[0px] mt-[100px]" src="../public/img/rounded-text.png"
+                alt="Zaoblený text">
+
+            <div
+                class="relative w-[292.06px] h-[290.04px] transform translate-y-[-37%] flex justify-center items-center bg-[url(../public/img/overlayhover.png)] bg-auto bg-center bg-no-repeat">
+                <a class="text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[85px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                    href="#">O nás</a>
+
+
+            </div>
+        </div>
+
+
+
+
+        <!-- Overlay Navigation Menu -->
+        <div
+            class="overlay fixed bg-[#385384] top-0 left-0 w-full h-full opacity-0 invisible overflow-hidden transition-opacity transition-visiblity transition-height duration-350">
+            <div class="flex flex-row justify-between items-center max-w-[1312px] m-auto px-3.5">
+                <div class="md:mt-[48px] mt-[32px]">
+                    <img class="md:w-[247.29px] w-[150px] " src="../public/img/logo-hp.png" alt="">
+                </div>
+                <span class="close-menu md:mt-[48px] mt-[32px] transition-transform duration-300 cursor-pointer">
+                    <img class="md:w-[24px] w-[18px]" src="../public/img/close.svg" alt="hamburger-close">
+                </span>
+            </div>
+
+            <nav
+                class="font-['featureDeck'] m-auto text-left text-white flex justify-start items-center px-3.5 h-100 pt-[192px] max-w-[1312px]">
+                <ul
+                    class="md:ml-[112px] ml-0 flex flex-col gap-[24px] md:text-[56px] text-[24px] md:leading-[64px] tracking-[1%]">
+                    <li><a href="#">Naše maringotky</a></li>
+                    <li><a href="#">Konfigurátor</a></li>
+                    <li><a href="#">Výroba / Lookbook</a></li>
+                    <li><a href="#">Reference</a></li>
+                    <li><a href="#">O nás</a></li>
+                    <li><a href="#">Kontakt</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="bg-[#F0EAE3] flex flex-col justify-center items-center px-3.5 md:py-[144px] py-[64px]">
+            <div class="md:mb-[64px] mb-[32px]">
+                <img class="md:w-[57.25px] w-[32px]" src="../public/img/znak-ikonka.svg" alt="Znak ikonka">
+
+
+            </div>
+            <div
+                class="relative w-[100%] md:h-[594px] h-[240px] bg-[url('../public/img/emblem.svg')] bg-contain bg-center bg-no-repeat flex justify-center items-center">
+
+
+                <h1
+                    class="text-[#385384] text-center font-['FeatureDeck'] md:font-[500] font-medium md:text-[96px] text-[32px]  md:leading-[112px] leading-[40px] tracking-[1%] md:mb-[45px]">
+                    Jsme Maringotka snů</h1>
+
+            </div>
+
+
+
+        </section>
+        <section class="bg-[#F0EAE3] md:pb-[144px] pb-[64px]">
+            <div class="flex flex-col justify-center items-center ">
+                <div class="max-w-[1312px] m-auto px-3.5 md:pb-[144px] pb-[64px]">
+                    <img src="../public/img/maringotka.jpg" alt="Maringotka">
+                </div>
+                <div class="flex flex-col justify-center items-center md:max-w-[864px] max-w-[315px]">
+                    <h2
+                        class="text-[#385384] md:text-[48px] text-[24px] text-center font-medium md:leading-[64px] leading-[32px] tracking-[1%] font-['FeatureDeck'] md:mb-[48px] mb-[32px]">
+                        S respektem k Vaším přáním a ruku v ruce s našimi letitými zkušenostmi vytváříme a stavíme
+                        maringotky, kde se nostalgie, krása a romantika prolíná s moderní funkčností a kvalitními
+                        materiály.</h2>
+
+                    <a class="text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[101px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                        href="#">Výroba</a>
+                </div>
+            </div>
+        </section>
+        <section class="md:pb-[144px] pb-[64px]">
+            <img src="../public/img/kolo-vysivka.jpg" alt="Kolo výšivka">
+
+
+        </section>
+        <section>
+            <div class="flex justify-start  md:max-w-[1312px] m-auto  max-w-[315px]  md:mb-[96px] mb-[32px]">
+                <h2
+                    class="text-[#385384] font-['FeatureDeck'] font-medium md:text-[48px] text-[24px] md:leading-[64px] leadinf-[32px] tracking-[1%] px-3.5  ">
+                    Naše maringotky</h2>
+
+
+            </div>
+            <div class="md:max-w-[1312px] m-auto px-3.5 max-w-[315px] md:mb-[144px] mb-[64px]">
+
+                <div
+                    class="md:flex md:flex-row  gap-[32px] md:py-[48px] py-[22px] border-[rgba(56,83,84,0.25)] border-solid border-y-[1px] border-t-[0px] md:border-t-[1px]  ">
+                    <div class="md:w-[50%]  "> <img src="../public/img/foto-maringotky.jpg" alt="foto maringotky"></div>
+                    <div class="md:w-[50%]  md:pl-[32px] flex flex-col md:justify-between ">
+                        <div class="flex md:flex-row flex-col justify-between md:gap-[32px] ">
+                            <div>
+                                <h2
+                                    class=" text-[#385384] font-['FeatureDeck'] font-medium text-[32px] leading-[48px] tracking-[1%] ">
+                                    Pastýřka</h2>
+                            </div>
+                            <div
+                                class="max-w-[304px] flex flex-col gap-[10px] font-['Archivo'] font-medium text-[16px] leading-[24px] tracking-[2%]">
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#282324] mb-[24px]">
+                                    Romantika, příroda a tradice v kombinaci s praktickým použitím a velikou mobilitou.
+                                    To vše představuje řada maringotek PASTÝŘKA.</p>
+                                <p class="mb-[16px] font-['Archivo'] font-[16px] leading-[24px] text-[#385384]">Rozměr
+                                    ložné plochy: 1,8 × 3 m a 2 × 4 m</p>
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#D5A38E]">od 206 000 Kč</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-[16px] flex-wrap mt-[20px]"> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[190px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Více o maringotce</a> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[155px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Konfigurátor</a></div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="md:flex md:flex-row  gap-[32px] md:py-[48px] py-[22px] border-[rgba(56,83,84,0.25)] border-solid border-y-[1px] border-t-[0px]   ">
+                    <div class="md:w-[50%]  "> <img src="../public/img/foto-maringotky.jpg" alt="foto maringotky"></div>
+                    <div class="md:w-[50%]  md:pl-[32px] flex flex-col md:justify-between ">
+                        <div class="flex md:flex-row flex-col justify-between md:gap-[32px] ">
+                            <div>
+                                <h2
+                                    class=" text-[#385384] font-['FeatureDeck'] font-medium text-[32px] leading-[48px] tracking-[1%] ">
+                                    Pastýřka</h2>
+                            </div>
+                            <div
+                                class="max-w-[304px] flex flex-col gap-[10px] font-['Archivo'] font-medium text-[16px] leading-[24px] tracking-[2%]">
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#282324] mb-[24px]">
+                                    Romantika, příroda a tradice v kombinaci s praktickým použitím a velikou mobilitou.
+                                    To vše představuje řada maringotek PASTÝŘKA.</p>
+                                <p class="mb-[16px] font-['Archivo'] font-[16px] leading-[24px] text-[#385384]">Rozměr
+                                    ložné plochy: 1,8 × 3 m a 2 × 4 m</p>
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#D5A38E]">od 206 000 Kč</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-[16px] flex-wrap mt-[20px]"> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[190px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Více o maringotce</a> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[155px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Konfigurátor</a></div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="md:flex md:flex-row  gap-[32px] md:py-[48px] py-[22px] border-[rgba(56,83,84,0.25)] border-solid border-y-[1px] border-t-[0px]  ">
+                    <div class="md:w-[50%]  "> <img src="../public/img/foto-maringotky.jpg" alt="foto maringotky"></div>
+                    <div class="md:w-[50%]  md:pl-[32px] flex flex-col md:justify-between ">
+                        <div class="flex md:flex-row flex-col justify-between md:gap-[32px] ">
+                            <div>
+                                <h2
+                                    class=" text-[#385384] font-['FeatureDeck'] font-medium text-[32px] leading-[48px] tracking-[1%] ">
+                                    Pastýřka</h2>
+                            </div>
+                            <div
+                                class="max-w-[304px] flex flex-col gap-[10px] font-['Archivo'] font-medium text-[16px] leading-[24px] tracking-[2%]">
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#282324] mb-[24px]">
+                                    Romantika, příroda a tradice v kombinaci s praktickým použitím a velikou mobilitou.
+                                    To vše představuje řada maringotek PASTÝŘKA.</p>
+                                <p class="mb-[16px] font-['Archivo'] font-[16px] leading-[24px] text-[#385384]">Rozměr
+                                    ložné plochy: 1,8 × 3 m a 2 × 4 m</p>
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#D5A38E]">od 206 000 Kč</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-[16px] flex-wrap mt-[20px]"> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[190px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Více o maringotce</a> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[155px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Konfigurátor</a></div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="md:flex md:flex-row  gap-[32px] md:py-[48px] py-[22px] border-[rgba(56,83,84,0.25)] border-solid border-y-[1px] border-t-[0px]   ">
+                    <div class="md:w-[50%]  "> <img src="../public/img/foto-maringotky.jpg" alt="foto maringotky"></div>
+                    <div class="md:w-[50%]  md:pl-[32px] flex flex-col md:justify-between ">
+                        <div class="flex md:flex-row flex-col justify-between md:gap-[32px] ">
+                            <div>
+                                <h2
+                                    class=" text-[#385384] font-['FeatureDeck'] font-medium text-[32px] leading-[48px] tracking-[1%] ">
+                                    Pastýřka</h2>
+                            </div>
+                            <div
+                                class="max-w-[304px] flex flex-col gap-[10px] font-['Archivo'] font-medium text-[16px] leading-[24px] tracking-[2%]">
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#282324] mb-[24px]">
+                                    Romantika, příroda a tradice v kombinaci s praktickým použitím a velikou mobilitou.
+                                    To vše představuje řada maringotek PASTÝŘKA.</p>
+                                <p class="mb-[16px] font-['Archivo'] font-[16px] leading-[24px] text-[#385384]">Rozměr
+                                    ložné plochy: 1,8 × 3 m a 2 × 4 m</p>
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#D5A38E]">od 206 000 Kč</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-[16px] flex-wrap mt-[20px]"> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[190px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Více o maringotce</a> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[155px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Konfigurátor</a></div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="md:flex md:flex-row  gap-[32px] md:py-[48px] py-[22px] border-[rgba(56,83,84,0.25)] border-solid border-y-[1px] border-t-[0px]  ">
+                    <div class="md:w-[50%]  "> <img src="../public/img/foto-maringotky.jpg" alt="foto maringotky"></div>
+                    <div class="md:w-[50%]  md:pl-[32px] flex flex-col md:justify-between ">
+                        <div class="flex md:flex-row flex-col justify-between md:gap-[32px] ">
+                            <div>
+                                <h2
+                                    class=" text-[#385384] font-['FeatureDeck'] font-medium text-[32px] leading-[48px] tracking-[1%] ">
+                                    Pastýřka</h2>
+                            </div>
+                            <div
+                                class="max-w-[304px] flex flex-col gap-[10px] font-['Archivo'] font-medium text-[16px] leading-[24px] tracking-[2%]">
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#282324] mb-[24px]">
+                                    Romantika, příroda a tradice v kombinaci s praktickým použitím a velikou mobilitou.
+                                    To vše představuje řada maringotek PASTÝŘKA.</p>
+                                <p class="mb-[16px] font-['Archivo'] font-[16px] leading-[24px] text-[#385384]">Rozměr
+                                    ložné plochy: 1,8 × 3 m a 2 × 4 m</p>
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#D5A38E]">od 206 000 Kč</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-[16px] flex-wrap mt-[20px]"> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[190px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Více o maringotce</a> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[155px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Konfigurátor</a></div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="md:flex md:flex-row  gap-[32px] md:py-[48px] py-[22px] border-[rgba(56,83,84,0.25)] border-solid border-y-[1px] border-t-[0px]   ">
+                    <div class="md:w-[50%]  "> <img src="../public/img/foto-maringotky.jpg" alt="foto maringotky"></div>
+                    <div class="md:w-[50%]  md:pl-[32px] flex flex-col md:justify-between ">
+                        <div class="flex md:flex-row flex-col justify-between md:gap-[32px] ">
+                            <div>
+                                <h2
+                                    class=" text-[#385384] font-['FeatureDeck'] font-medium text-[32px] leading-[48px] tracking-[1%] ">
+                                    Pastýřka</h2>
+                            </div>
+                            <div
+                                class="max-w-[304px] flex flex-col gap-[10px] font-['Archivo'] font-medium text-[16px] leading-[24px] tracking-[2%]">
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#282324] mb-[24px]">
+                                    Romantika, příroda a tradice v kombinaci s praktickým použitím a velikou mobilitou.
+                                    To vše představuje řada maringotek PASTÝŘKA.</p>
+                                <p class="mb-[16px] font-['Archivo'] font-[16px] leading-[24px] text-[#385384]">Rozměr
+                                    ložné plochy: 1,8 × 3 m a 2 × 4 m</p>
+                                <p class="font-['Archivo'] font-[16px] leading-[24px] text-[#D5A38E]">od 206 000 Kč</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-[16px] flex-wrap mt-[20px]"> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[190px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Více o maringotce</a> <a
+                                class="cursor-pointer text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[155px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                                href="#">Konfigurátor</a></div>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+        <section>
+            <div class="min-h-screen md:min-h-[752px]  flex  flex-wrap  ">
+                <div
+                    class=" max-w-[100%] order-last md:order-first md:w-1/2 md:px-[112px] px-[34px] text-center  bg-[#E6F5FE] flex flex-col  items-center font-['Archivo'] font-[18px] leading-[24px] text-[#385384] ">
+                    <h2 class=" mb-[48px] mt-[64px] uppercase">Zakázková výroba</h2>
+                    <h2
+                        class="md:mb-[48px] mb-[24px] text-[#385384] font-['FeatureDeck'] font-medium md:text-[48px] text-[24px] md:leading-[64px] leading-[32px] tracking-[1%]">
+                        Individuální maringotky</h2>
+                    <p class="mb-[24px]  font-['Archivo'] font-[16px] leading-[24px] text-[#385384] ">Naše dřevěné
+                        maringotky lze přizpůsobit jakémukoli účelu, který si dokážete představit, od školek až po
+                        včelíny, s prakticky neomezenými možnostmi. Pouze vnější šířka je omezena na 3 metry a délka 11
+                        metrů. Váš prostor bude nejen přesně podle vašich představ, ale také plně funkční a mobilní.
+                        Pomůžeme vám uskutečnit vaše sny a vytvořit prostor přesně podle vašich představ.</p>
+                    <p class="mb-[48px] font-['Archivo'] font-[16px] leading-[24px] text-[#385384]  ">Naše dřevěné
+                        maringotky lze přizpůsobit jakémukoli účelu, který si dokážete představit, od školek až po
+                        včelíny, s prakticky neomezenými možnostmi. Pouze vnější šířka je omezena na 3 metry a délka 11
+                        metrů. Váš prostor bude nejen přesně podle vašich představ, ale také plně funkční a mobilní.
+                        Pomůžeme vám uskutečnit vaše sny a vytvořit prostor přesně podle vašich představ.</p>
+                    <a class="mb-[48px] text-[#D5A38E] border-2 border-solid border-[#D5A38E] px-[16px] py-[20px] flex justify-center items-center rounded-[16px] w-[149px] h-[48px] gap-[10px] font-['Archivo'] font-medium text-[14px] leading-[16px] tracking-[2%] uppercase hover:bg-[#D5A38E] focus:bg-[#D5A38E] hover:text-white focus:text-white"
+                        href="#">Inspirovat se</a>
+                </div>
+                <div
+                    class="md:w-1/2  w-full md:min-h-[752px] min-h-[248px] bg-[url('../public/img/maringotka-top.jpg')] bg-cover md:bg-[12%] bg-center bg-no-repeat">
+
+
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="md:max-w-[1312px] max-w-[315px]  m-auto md:py-[124px] py-[64px] px-[2px]">
+            <div class="wrap">
+                <div class="box-video">
+                    <div class="bg-video" style="background-image: url('../public/img/videocover.jpg');">
+                        <div class="bt-play"></div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="590" height="332"
+                            src="https://www.youtube.com/embed/qIjZqxqDTNM?rel=0&amp;showinfo=0" frameborder="0"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <section>
+            <div class="flex justify-start  md:max-w-[1312px] max-w-[315px] md:m-auto  md:mb-[144px] mb-[32px]">
+                <h2
+                    class="text-[#385384] font-['FeatureDeck'] font-medium md:text-[48px] text-[24px] md:leading-[64px] leading-[32px] tracking-[1%] px-3.5  ">
+                    Napsali o nás</h2>
+
+
+            </div>
+
+            <div class="container md:py-[124px] md:pt-[0px] pt-[48px] pb-[64px] px-3.5 md:max-w-[1312px] max-w-[315px]">
+                <!-- If we need navigation buttons -->
+
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+                        <div class="swiper-slide flex-col justify-between gap-[10px]">
+                            <div class="h-[216px] overflow:hidden">
+                                <img class="object-cover object-center" src="../public/img/testimg.jpg" alt="Foto">
+                            </div>
+                            <img class="mb-[10px] md:mt-[0px] mt-[10px]" src="../public/img/markdown.svg"
+                                alt="Markdown">
+                            <p
+                                class="mb-[15px] max-w-[304px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Jsou neskutečně multifunkční. Každý si tu může udělat prostor podle sebe, obklopit se
+                                věcmi, které má rád, zaparkovat kde chce, mít tam dílnu, knihovnu, šicí koutek, kuchyň,
+                                domeček pro děti.. a pracovat, tvořit nebo jen tak lelkovat.</p>
+                            <p class="mb-[15px] font-['Archivo'] font-[16px] leading-[24px] text-[#282324] text-medium">
+                                Kateřina Mázdrová</p>
+                            <img class="w-[128px]" src="../public/img/logo-post.png" alt="Markdown logo">
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-prev md:block hidden"></div>
+                <div class="swiper-button-next md:block hidden"></div>
+
+            </div>
+
+
+
+
+
+
+
+        </section>
+
+        <section class="bg-[#F0EAE3] flex flex-col justify-between items-center px-3.5 md:py-[144px] py-[64px] ">
+            <img src="../public/img/karavan-rounded.png" class="rounded-full mb-[64px]" alt="Karavan">
+            <h2
+                class="mb-[48px] text-[#385384] font-['FeatureDeck'] font-medium md:text-[48px] text-[24px] md:leading-[64px] leadinf-[32px] tracking-[1%] px-3.5  ">
+                Kontaktujte nás</h2>
+            <a href="/"><img src="../public/img/call-to-action.svg" alt="Call to action"></a>
+
+
+        </section>
+    </main>
+
+    <footer class="py-[64px] px-[2px] bg-[#385384] top-0 left-0 w-full h-full">
+        <div class="flex md:flex-row flex-col justify-between items-center max-w-[1312px] m-auto px-3.5">
+            <div>
+                <img class="md:w-[247.29px] w-[150px]" src="../public/img/logo-hp.png" alt="">
+            </div>
+            <span class="md:order-last order-first md:mb-0 mb-[48px]">
+                <img class="md:w-[32.72px] w-[32px]  " src="../public/img/Wood.svg" alt="hamburger-close">
+            </span>
+        </div>
+
+        <div class=" md:max-w-[1312px] max-w-[315px] m-auto px-3.5">
+            <div class="flex text-white flex-col justify-center items-center md:mb-[88px]  mt-[44px]">
+                <div class="mb-[60px] text-center flex flex-col justify-center items-center ">
+                    <a class="mb-[8px] text-[#fff] font-['FeatureDeck'] font-medium md:text-[18px] text-[18px] md:leading-[24px] leading-[24px] tracking-[2%]"
+                        href="mailto:info@maringotkasnu.cz">info@maringotkasnu.cz</a>
+                    <a class="text-[#fff] font-['FeatureDeck'] font-medium md:text-[18px] text-[18px] md:leading-[24px] leading-[24px] tracking-[2%]"
+                        href="tel:+420728318993">+420 728 318 993</a>
+                </div>
+                <p class="text-center font-['Archivo'] text-[14px] leading-[16px] text-[#fff] font-medium md:block hidden">Images
+                    courtesy of various talented photographers. <br> Thank you</p>
+            </div>
+
+            <div class="flex md:justify-between justify-center md:flex-row flex-col ">
+                <div class="flex gap-[32px] justify-center md:mb-0 mb-[64px]">
+                    <a class="mb-[8px] text-[#fff] font-['FeatureDeck'] font-medium md:text-[18px] text-[18px] md:leading-[24px] leading-[24px] tracking-[2%]" href="#">Instagram</a>
+                    <a class="mb-[8px] text-[#fff] font-['FeatureDeck'] font-medium md:text-[18px] text-[18px] md:leading-[24px] leading-[24px] tracking-[2%]" href="#">Facebook</a>
+                </div>
+                <div class="block md:hidden md:mb-0 mb-[64px]">
+                    <p class="text-center font-['Archivo'] text-[14px] leading-[16px] text-[#fff] font-medium">Images
+                        courtesy of various talented photographers. <br> Thank you</p>
+
+                </div>
+                <div class="md:mb-0 mb-[32px] text-center md:ml-[15px] ml-[0px]">
+                    <span class="text-center font-['Archivo'] text-[14px] leading-[16px] text-[#fff] font-medium ">Copyright © 2021 Maringotka snů</span>
+
+                </div>
+                <div class="flex md:gap-[24px] gap-[13px] items-center md:flex-row flex-col justify-center">
+                    
+                   <p class="text-center font-['Archivo'] text-[11px] leading-[11px] text-[#fff] font-[700] uppercase tracking-[1px]">Developed by Visualio</p>
+                    <img class="w-[26px] h-[16px] md:order-last order-first " src="../public/img/Visualio.svg" alt="Logo Visualio">
+                        
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../dist/js/swiper.min.js"></script>
+    <script src="../dist/js/script.js"></script>
+</body>
+
+</html>

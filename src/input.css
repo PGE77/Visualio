@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.overlay.open {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+  z-indeX: 9;
+}
+
+
+
+@layer base {
+  @font-face {
+    font-family: 'FeatureDeck';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../dist/fonts/FeatureDeck-Regular-Trial.otf) format('otf');
+  }
+}
+
+.box-video {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 20px auto;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Set Cover aka Background-Image */
+.box-video .bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+
+/* Add light shade to make play button visible*/
+.bg-video::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.wrap {
+  position: relative;
+  max-width: 1312px;
+  width: 100%;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+/* The Play-Button using CSS-Only */
+.box-video .bt-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -30px 0 0 -30px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 50%;
+  text-indent: -999em;
+  border: 1px solid #fff;
+  cursor: pointer;
+  z-index: 2;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+/* The Play-Triangle */
+.box-video .bt-play:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin: -12px 0 0 -6px;
+  border: solid transparent;
+  border-left-color: #fff;
+  border-width: 12px 20px;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.box-video:hover .bt-play {
+  transform: scale(1.1);
+}
+
+/* When Class added the Cover gets hidden... */
+.box-video.open .bg-video {
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: all .6s .8s;
+  transition: all .6s .8s;
+}
+
+/* and iframe shows up */
+.box-video.open .video-container {
+  opacity: 1;
+  -webkit-transition: all .6s .8s;
+  transition: all .6s .8s;
+}
+
+/* Giving the div ratio of 16:9 with padding */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  z-index: 1;
+  padding-bottom: 56.27198%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.container{
+  max-width: 1312px;
+  margin: 0 auto;
+  height: 100%;
+  position:relative;
+ 
+}
+
+@media screen and (max-width:480px){
+.container{
+ max-width:315px;
+
+}
+
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+
+    
+  
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+}
+
+.swiper-button-prev {
+  background-image: url("../public/img/arrow-left.svg") !important;
+  top: -20% !important;
+  right: 100px;
+  left: unset !important;
+  z-index:1000;
+}
+
+.swiper-button-next {
+  background-image: url("data:image/svg+xml,%3Csvg width='17' height='32' viewBox='0 0 17 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 0H0C0 6.93805 5.21344 13.5595 11.7332 16C5.21344 18.4405 0 25.062 0 32H2C2 24.4297 9.42969 17 17 17V15C9.42969 15 2 7.57031 2 0Z' fill='%23D5A38E'/%3E%3C/svg%3E%0A");
+  top: -20% !important;
+  z-index:1000;
+}
+
+
+
+
+
