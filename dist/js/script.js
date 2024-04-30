@@ -12,7 +12,11 @@ const mySwiper = new Swiper('.swiper-container', {
       slidesPerView: 4,
       spaceBetween: 32
     },
-    1028: {
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 15
+    },
+    768: {
       slidesPerView: 2,
       spaceBetween: 15
     },
