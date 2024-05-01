@@ -1586,3 +1586,9 @@ video {
     line-height: 64px;
   }
 }
+
+@media (min-width: 1024px) {
+  .lg\:flex-wrap {
+    flex-wrap: wrap;
+  }
+}
