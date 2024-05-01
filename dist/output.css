@@ -1064,10 +1064,6 @@ video {
   font-weight: 16px;
 }
 
-.font-\[18px\] {
-  font-weight: 18px;
-}
-
 .font-\[700\] {
   font-weight: 700;
 }
@@ -1171,7 +1167,7 @@ video {
   opacity: 1;
   visibility: visible;
   height: 100%;
-  z-indeX: 1001;
+  z-index: 1001;
 }
 
 .box-video {
@@ -1584,11 +1580,5 @@ video {
 
   .md\:leading-\[64px\] {
     line-height: 64px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:flex-wrap {
-    flex-wrap: wrap;
   }
 }
