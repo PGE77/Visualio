@@ -1322,7 +1322,7 @@ video {
 }
 
 .swiper-button-next {
-  background-image: url("data:image/svg+xml,%3Csvg width='17' height='32' viewBox='0 0 17 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 0H0C0 6.93805 5.21344 13.5595 11.7332 16C5.21344 18.4405 0 25.062 0 32H2C2 24.4297 9.42969 17 17 17V15C9.42969 15 2 7.57031 2 0Z' fill='%23D5A38E'/%3E%3C/svg%3E%0A");
+  background-image: url("../public/img/arow-right.svg") !important;
   top: -20% !important;
   z-index: 1000;
 }
