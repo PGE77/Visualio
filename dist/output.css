@@ -784,6 +784,10 @@ video {
   width: 100%;
 }
 
+.w-2\/6 {
+  width: 33.333333%;
+}
+
 .max-w-\[100\%\] {
   max-width: 100%;
 }
@@ -1467,6 +1471,14 @@ video {
     width: 57.25px;
   }
 
+  .md\:w-2\/6 {
+    width: 33.333333%;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:max-w-\[1312px\] {
     max-width: 1312px;
   }
@@ -1486,6 +1498,14 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 
   .md\:justify-between {
